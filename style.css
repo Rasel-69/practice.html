@@ -1,0 +1,60 @@
+.blog-1{
+    width: 400px;
+    height: 500px;
+    border: 2px solid red;
+    /* overflow:scroll;
+    overflow-x: hidden; */
+    overflow-y: scroll;
+}
+.mini-mini{
+    width: 100px;
+    height: 50px;
+    border: 2px solid blue;
+    overflow:hidden;
+}
+.short-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+.social-div{
+    text-align: center;
+    margin:100px auto;
+    width: 100%;
+}
+.social-div>p{
+    font-size: 50px;
+}
+.fa-facebook:hover{
+    color:rgb(124, 124, 250);
+}
+.fa-instagram{
+color:#3f729b;
+}
+table,th,td{
+    border:2px solid red;
+    border-collapse: collapse;
+    padding: 2px 10px;
+}
+.transform{
+    text-align: center;
+    
+}
+.outer-box{
+    width: 500px;
+    height: 500px;
+    margin:0 auto;
+   
+    background-image: radial-gradient(rgb(253, 212, 220),rgb(255, 212, 241));
+}
+.inner-box{
+    
+    width: 450px;
+    height: 450px;
+    background-color: rgb(151, 88, 5);
+    
+    border-top: 2px solid;
+    border-image:linear-gradient(rgb(247, 2, 2),rgb(247, 10, 10));
+    border-image-slice: 2;
+    transform:scale(0.5) rotate(90deg) translate(600px,500px);
+}
